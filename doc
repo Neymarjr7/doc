@@ -1,0 +1,52 @@
+sudo su
+docker images
+docker pull bushsk/ngnix_webapp:v1
+docker images
+docker ps
+docker run -itd -p 8888:80 bushsk/ngnix_webapp:v1
+images
+ps
+
+docker kill ____________________
+docker images
+dcoker rmi _____________
+
+docker images
+docker tag 680e5dfb52c7 neymar10/website:v1
+docker images
+docker ps
+docker commit 7d928cb15aa4 neymar10/website:v1
+docker images
+docker run -itd -p 8888:80 neymar10/website:v1
+docker ps
+docker login
+docker exec -it ee4edc809db2 service apache2 restart
+docker push neymar10/website:v1
+
+
+
+docker pull ununtu:focal 
+docker images
+docker run -it ubuntu:focal bash
+apt update
+apt install apache2
+cd /var/www/html
+mv index.html index.backup
+ls
+apt install nano
+index.html
+service apache2 start
+service apache2 status
+
+
+
+docker tag 680e5dfb52c7 neymar10/website:v1
+docker images
+docker ps
+docker commit 7d928cb15aa4 neymar10/website:v1
+docker images
+docker run -itd -p 8888:80 neymar10/website:v1
+docker ps
+docker exec -it ee4edc809db2 service apache2 restart
+docker login
+docker push neymar10/website:v1
